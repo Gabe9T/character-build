@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="js/scripts.js"></script>
+    <link href="css/styles.css" rel="stylesheet" type="text/css">
+    <title>Character Builder</title>
+</head>
+
+<body>
+    <h1>Character Builder</h1>
+    <form id="characterBuilder">
+        <label for="input1">Character Name:</label>
+        <input id="input1" type="text">
+        <br />
+        <br />
+        <label for="input2">Height (ft):</label>
+        <input id="input2" type="number">
+        <br />
+        <br />
+        <label for="input3">Species:</label>
+        <select id="input3">
+            <option>Human</option>
+            <option>Elf</option>
+            <option>Orc</option>
+            <option>Dwarf</option>
+        </select>
+        <br />
+        <br />
+            <label for="input4">Gender:</label>
+            <br />
+            <br />
+            <input type="radio" name="input4" value="male">Male
+            <br />
+            <input type="radio" name="input4" value="female">Female
+            <br />
+            <input type="radio" name="input4" value="nb">NB
+            <br />
+            <input type="radio" name="input4" value="other">Other
+        </label>
+        <br />
+        <br />
+        <button type="submit" class="btn">Submit</button>
+    </form>
+
+    <h2>Your Class</h2>
+    <p id="output"></p>
+</body>
+
+</html>
